@@ -1,4 +1,4 @@
-body {
+/*body {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 15px;
 	line-height: 1.5;
@@ -110,6 +110,285 @@ header #branding {
 header nav{
 	float: right;
 }*/
+
+
+/*
+@font-face {
+	font-family: first;
+	src: url("Girassol");
+}
+
+@font-face {
+	font-family: second;
+	src: url("Anton-Regular");
+}
+
+@font-face {
+	font-family: third;
+	src: url("Lobster-Regular");
+}
+
+@font-face {
+	font-family: fourth;
+	src: url("Molle-Italic");
+}
+@font-face {
+	font-family: fifth;
+	src: url("permanent");
+}*/
+
+
+@font-face {
+	font-family: ggg;
+	src: url("Molle-Italic");
+}
+
+
+
+div,p,body,header,footer,section,nav {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	color: #333;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	text-decoration: none;
+}
+
+.hidden {
+	display: none;
+}
+
+
+#sitecontainer {
+	margin: 0 auto;
+	width: 920px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: #FDE6B3;
+}
+
+#mainheader {
+	margin-top: 40px;
+	padding-bottom: 40px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	border-bottom: solid 1px #DDD;
+	background-color: #FFB0A3;
+}
+
+#logo {
+	margin-top: 30px;
+	width: 200px;
+	margin-left: 20px;
+}
+
+.mainNav {
+	width: 500px;
+	height: 25px;
+	margin-top: 60px;
+	margin-left: auto;
+}
+
+.mainNav ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.mainNav ul li {
+	font-size: 20px;
+	display: inline;
+	cursor: pointer;
+	margin-left: 25px;
+}
+
+.mainNav ul li a {
+	color: black;
+	padding: 5px;
+}
+
+.mainNav ul li a:hover {
+	padding: 5px;
+	background-color: #ff0000;
+	color: white;
+}
+
+ul li.selected a {
+	padding: 5px;
+	background-color: #ff0000;
+	color: white;
+}
+
+.imagefirst {
+	/*justify-content: center;*/
+	text-align: center;
+	margin-top: 10px;
+}
+.big {
+	font-size: 35px;
+	font-family: "Molle-Italic";
+	padding: 2px;
+	color: black;
+	margin-top: 10px;
+}
+
+.medium {
+	font-size: 20px;
+	font-family: "Anton-Regular"; 
+	padding: 5px;
+}
+
+.small {
+	font-size: 20px;
+	font-family: "Anton-Regular";
+	padding: 5px;
+}
+
+#beers {
+	text-align: center;
+}
+
+
+.align-images {
+
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+}
+
+.types {
+	font-size: 20px;
+	font-family: "Lobster-Regular";
+	padding: 5px;
+	margin-top: 10px;
+	font-weight: bold;
+
+
+}
+
+.questions {
+	margin-top: 40px;
+	margin-left: 20px;
+	text-align: left;
+
+}
+h3 {
+	font-size: 20px;
+	font-family: "Lobster-Regular";
+}
+
+p {
+	font-family: "Molle-Italic";
+	font-size: 20px;
+}
+
+.History {
+	text-align: center;
+	margin-top: 30px;
+	font-family: "Anton-Regular";
+}
+
+.contactus {
+	font-size: 35px;
+	font-family: "Molle-Italic";
+	/*padding: 5px;*/
+	text-align: center;
+	margin-top: 20px;
+}
+
+.info {
+	text-align: center;
+	font-size: 20px;
+	font-family: "Girassol" ;
+
+}
+
+.link {
+	text-align: center;
+	color: blue;
+	cursor: pointer;
+	margin-top: 5px;
+	font-size: 25px;
+
+}
+
+.headings{
+	font-size: 25px;
+	font-family: "Anton-Regular";
+	padding: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
